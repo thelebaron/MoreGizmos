@@ -1,13 +1,13 @@
 ﻿
 using UnityEngine;
-#if UNITY_EDITOR
+//#if UNITY_EDITOR
 using UnityEditor;
 
 namespace thelebaron.MoreGizmos
 {
 
     [CustomEditor(typeof(CreateMeshAssetFromSelection))]
-    public class CreateMeshAssetFromSelectionInspector : UnityEditor.Editor
+    public class CreateMeshAssetFromSelectionInspector : Editor
     {
         
         public override void OnInspectorGUI()
@@ -34,4 +34,4 @@ namespace thelebaron.MoreGizmos
     }
 }
 
-#endif
+//#endif

@@ -1,6 +1,8 @@
 {
-    "name": "thelebaron.MoreGizmos",
-    "references": [],
+    "name": "thelebaron.MoreGizmos.Editor",
+    "references": [
+        "GUID:09d7bb7106995034e8d4af13a16bd216"
+    ],
     "includePlatforms": [
         "Editor"
     ],
