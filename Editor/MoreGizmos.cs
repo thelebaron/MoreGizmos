@@ -9,7 +9,7 @@ namespace thelebaron.MoreGizmos
     public static class MoreGizmos
     {
         public static Color color { get; set; }
-        private const string UnlitMaterialPath = "Packages/com.thelebaron.MoreGizmos/Materials/Unlit.mat";
+        private const string UnlitMaterialPath = "Packages/com.thelebaron.moregizmos/Materials/Unlit.mat";
         private static Material _unlit;
         private static Material Unlit()
         {
@@ -24,7 +24,7 @@ namespace thelebaron.MoreGizmos
         }
 
 
-        private const string DiamondMeshPath = "Packages/com.thelebaron.MoreGizmos/Meshes/Diamond.mesh";
+        private const string DiamondMeshPath = "Packages/com.thelebaron.moregizmos/Meshes/Diamond.mesh";
         private static Mesh _diamondMesh;
         
         private static Mesh DiamondMesh()
