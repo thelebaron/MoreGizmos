@@ -1,0 +1,8 @@
+{
+  "name": "com.thelebaron.moregizmos",
+  "description": "Some more gizmos for Unity.",
+  "version": "0.0.1",
+  "displayName": "moregizmos",
+  "type": "tool",
+  "unity": "2020.1"
+}
